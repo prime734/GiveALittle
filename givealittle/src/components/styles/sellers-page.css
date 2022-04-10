@@ -1,0 +1,81 @@
+
+.button-add {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.5s;
+    animation: ease-in;
+    box-shadow: 0px 0px 15px -5px rgb(80, 80, 80);
+    font-size:x-large;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.popup{
+    margin: auto;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.button-add:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 0px rgb(80, 80, 80);
+}
+
+.card-container{
+    width: 300px;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px -5px rgb(93, 93, 93);
+    overflow: hidden;
+    transition: 0.5s;
+    animation: ease-in;
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 0px rgb(189, 189, 189);
+}
+
+
+img{
+    display: block;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 20dp;
+}
+
+.card-name{
+    margin: 0.5rem;
+}
+
+.card-description{
+    margin: 0.5rem;;
+}
+
+.card-numbers-container{   
+    padding: 0.5rem;
+}
+
+.card-stock{
+    display: block;
+    float: left;
+    margin-left: 0.5rem;
+}
+
+.price-container{
+    display: block;
+    float: right;
+    background-color: rgb(209, 255, 240);
+    border-radius: 20rem;
+    margin-right: 0.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
